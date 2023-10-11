@@ -1,0 +1,120 @@
+
+body {
+    background: linear-gradient(to right, pink, purple, red);
+}
+
+.mainbox{
+display: flex;
+box-sizing: border-box;
+width: 35rem;
+height: 35rem;
+
+background: #000000;
+border: 1px solid #FAF7F7;
+border-radius: 1rem;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+#logo{
+ height: 5rem;
+ width: 5rem;
+ margin-top: 1.7rem;
+ padding: 0;
+ 
+ 
+}
+#heading{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 70;
+font-size: 3rem;
+line-height: 3rem;
+padding: 0%;
+margin-top: 3rem;
+
+
+
+color: #FFFFFF;}
+.yup{
+height: 100vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#cityname{
+color: #FAF7F7;
+}
+#navbar{
+display: flex;
+
+justify-content: center;
+}
+
+
+#formed{
+display: flex;
+margin-left: 0rem;
+margin-top: 2em;
+
+}
+#cityname{
+font: 1rem sans-serif;
+padding: 0rem;
+font-size: 1rem;
+margin-left: 0.3em;
+
+}
+#city{
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0.3em;
+margin-right: 0.3em;
+height: 1rem;
+width: 20rem;}
+#submit{
+margin-left: 0.3em;
+}
+#city-name{
+display: flex;
+size: 4rem;
+align-items: center;
+justify-content: center;
+font: 2em sans-serif;
+font-weight: bold;
+font-variant: small-caps;
+}
+#hehu1{
+display: flex;
+margin-left: 3.5rem;
+
+}
+#temperature{
+margin-left: 1rem;
+}
+#hehu2{
+display: flex;
+margin-left: 3.5rem;
+
+}
+#hehu3{
+display: flex;
+margin-left: 3.5rem;
+
+}
+#rain-alert{display: flex;
+margin-left: 3.5rem;
+}
+#humidity{
+margin-left: 2rem;
+}    
+#wind-speed{
+margin-left: 1rem;
+}
+#weather-data{
+display: none;
+}
+.disclaimer { display: none; }
+footer { display: none; }
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }

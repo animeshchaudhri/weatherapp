@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agri app</title>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+</head>
+<body>
+    <div class="yup">
+        <div class="mainbox">
+	<div class="rounded-rectangle">
+        <div id="navbar"><img src="https://i.ibb.co/ZdYL4q9/Moonlogo.png" id="logo">
+        <h1 id="heading">Agri Weather</h1></div>
+        <div id="formed">
+		<form  id="weather-form">
+			<label for="city" id="cityname" for="name">Enter your city:</label><br>
+			<input type="text" id="city" value="" placeholder="Enter a city" required><br>
+           <input id="submit"type="submit" value="Submit">
+		</form> 
+        <div id="weather-data">
+            <p  id="city-name"></p>
+            <div >
+              <div id="hehu1" >
+                <p id="hehe" >Temperature:</p>
+                <p id="temperature"></p>
+              </div>
+              </div>
+              <div id="hehu2" >
+                <p id="hehe2" >Humidity:</p>
+                <p id="humidity"></p>
+              </div>
+              <div id="hehu3">
+                <span id="hehe3" >Wind speed:</span>
+                <span id="wind-speed"></span>
+              </div>
+              <p id="hehu4">
+                <strong id="hehe4">Next time it will rain:</strong><span id="rain-alert"></span>
+              </p>
+            </div>
+    </div>
+	</div>
+    </div>
+    </div>
+    
+
+<script src="script.js"></script>
+</body>
+</html>
+
+    
+	
+
