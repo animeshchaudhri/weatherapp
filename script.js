@@ -11,7 +11,7 @@ weatherForm.addEventListener('submit', (event) => {
     changecolour()
   
     const city = cityInput.value;
-    fetch(`https://api.weatherapi.com/v1/current.json?key=099fe78a182b48efbf880136230101&q=${city}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=&q=${city}`)
   .then(response => response.json())
     .then(data => {
      
